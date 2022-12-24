@@ -11,8 +11,8 @@
   </head>
   <body>
 
-    <!--Header - nav, hamburger menu, image-->
-    <header>
+    <!--nav, hamburger menu, image-->
+    <section id="home">
 
       <!--Hamburger menu contents-->
       <div class="collapse" id="navbarToggleExternalContent">
@@ -40,7 +40,7 @@
 
               <!--Navbar Logo-->
               <div>
-                <a class="navbar-brand " href="#">
+                <a class="navbar-brand " href="index.html">
                   <img src="img/logo.png" class="navlogo" alt="IEEE UNLV">
                 </a>
               </div>
@@ -49,16 +49,16 @@
               <div>
                 <ul class="nav">
                   <li class="nav-item">
-                    <a class="nav-link text-muted" href="about">About</a>
+                    <a class="nav-link text-muted" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Events</a>
+                    <a class="nav-link text-muted" href="/events.html">Events</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Sponsors</a>
+                    <a class="nav-link text-muted" href="/sponsors.html">Sponsors</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Contact</a>
+                    <a class="nav-link text-muted" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -68,18 +68,160 @@
       </nav>
 
       <!--Image of Wafer and IEEE/UNLV text-->
-      <div class="cover-image">
+      <div class="cover-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/index/wafer.webp'); background-size: cover;">
         <div class="cover-header">
-          <img src="img/logo-cover.png" class="cover-header-image img-fluid" alt="...">
+          <img src="img/index/logo-cover.png" class="cover-header-image img-fluid" alt="...">
         </div>
       </div>
-    </header>
-
-    <section id="about">
-      
     </section>
 
-    <script src="index.js"></script>
+    <div class="page">
+      <div class="page-inner">
+        
+        <!-- INFORMATION -->
+        <section id="about">
+          <div class="row">
+            <h4>
+              About Us
+            </h4>
+            <p>
+              IEEE UNLV Student Chapter is dedicated to education of members towards the advancement of the theory
+              and practice of electrical, electronics, communications and computer engineering, 
+              as well as computer science, the allied branches of engineering and the related arts and sciences.
+            </p>
+          </div>
+        </section>
+
+        <div class="h-pipe"></div>
+
+        <!-- OFFICERS -->
+        <section id="officers">
+          <div class="row">
+            <h4>
+              Officers
+            </h4>
+            <div class="officer-board">
+              
+              <!-- CARD -->
+              <div class="officer-card">
+                <div class="officer-card-inner">
+                  <div class="officer-card-image">
+                    <img src="https://via.placeholder.com/80" class="rounded" alt="...">
+                  </div>
+                </div>
+                <div class="officer-card-inner">
+                  <div class="officer-card-name">Zach Barbosa</div>
+                  <div class="officer-card-title">President</div>
+                </div>
+              </div>
+
+              <div class="officer-card">
+                <div class="officer-card-inner">
+                  <div class="officer-card-image">
+                    <img src="https://via.placeholder.com/80" class="rounded" alt="...">
+                  </div>
+                </div>
+                <div class="officer-card-inner">
+                  <div class="officer-card-name">Samuel Brown</div>
+                  <div class="officer-card-title">Vice President</div>
+                </div>
+              </div>
+
+              <div class="officer-card">
+                <div class="officer-card-inner">
+                  <div class="officer-card-image">
+                    <img src="https://via.placeholder.com/80" class="rounded" alt="...">
+                  </div>
+                </div>
+                <div class="officer-card-inner">
+                  <div class="officer-card-name">Francis Palustre</div>
+                  <div class="officer-card-title">Events Coordinator</div>
+                </div>
+              </div>
+
+              <div class="officer-card">
+                <div class="officer-card-inner">
+                  <div class="officer-card-image">
+                    <img src="https://via.placeholder.com/80" class="rounded" alt="...">
+                  </div>
+                </div>
+                <div class="officer-card-inner">
+                  <div class="officer-card-name">Edreese Basharyar</div>
+                  <div class="officer-card-title">Treasurer</div>
+                </div>
+              </div>
+
+              <div class="officer-card">
+                <div class="officer-card-inner">
+                  <div class="officer-card-image">
+                    <img src="https://via.placeholder.com/80" class="rounded" alt="...">
+                  </div>
+                </div>
+                <div class="officer-card-inner">
+                  <div class="officer-card-name">Cruz Luna</div>
+                  <div class="officer-card-title">Communications</div>
+                </div>
+              </div>
+
+              <div class="officer-card">
+                <div class="officer-card-inner">
+                  <div class="officer-card-image">
+                    <img src="https://via.placeholder.com/80" class="rounded" alt="...">
+                  </div>
+                </div>
+                <div class="officer-card-inner">
+                  <div class="officer-card-name">MacGyver Codilla</div>
+                  <div class="officer-card-title">Webmaster</div>
+                </div>
+              </div>
+
+              <div class="officer-card">
+                <div class="officer-card-inner">
+                  <div class="officer-card-image">
+                    <img src="https://via.placeholder.com/80" class="rounded" alt="...">
+                  </div>
+                </div>
+                <div class="officer-card-inner">
+                  <div class="officer-card-name">Sam Remey</div>
+                  <div class="officer-card-title">Liaison</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <div class="h-pipe"></div>
+
+        <!-- CONTACT -->
+        <section id="contact">
+          <div class="row">
+            <h4>
+              Contact
+            </h4>
+            <div class="social-media">
+              <a href="https://discord.gg/DPADVKV"><i class="fa-brands fa-discord"></i></a>
+              <a href="https://www.facebook.com/UNLVIEEEStudentBranch/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/ieee_unlv/"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://involvementcenter.unlv.edu/organization/ieee"><i class="fa-solid fa-graduation-cap"></i></a>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <section>
+      <div class="footer">
+        <p>IEEE UNLV </p>
+      </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/f6ba38e8e7.js" crossorigin="anonymous"></script>
+    <script src="./src/js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>

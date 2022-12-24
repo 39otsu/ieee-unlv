@@ -25,9 +25,7 @@ a {
   align-items: center;
   color: white;
   width: 100vw;
-  height: 60vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/wafer.webp');
-  background-size: cover;
+  height: 50vh;
 }
 
 .cover-header {
@@ -38,17 +36,59 @@ a {
   justify-content: center;
 }
 
+.secondary-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100vw;
+  height: 50vh;
+}
 .navlogo {
-  background-image: url('./ieeeinverse.png');
+  background-image: url('.img/index/logo.png');
   height: 45px;
 }
 
 .nav-link {
   display: none;
 }
+
+.footer {
+  width: 100%;
+  height: 3em;
+  background-color: rgb(43, 42, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.officer-board {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px 50px;
+  gap: 50px;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 2rem;
+}
 @media only screen and (min-width: 768px) {
   .cover-image{
-    height: 100vh;
+    height: 60vh;
   }
 
   .cover-header-image {
@@ -56,11 +96,7 @@ a {
     margin-right: 30px;
   }
 
-  .row {
-    width: 100%; 
-    max-width: 1140px;
-    padding: 0 2%;
-  }
+
   
   .content-container {
     margin: 80px 0;
@@ -90,6 +126,7 @@ a {
     margin: 10px 0;
     opacity: 20%;
   }
+
   .nav-link {
     display: flex;
     justify-content: center;
@@ -107,5 +144,75 @@ a {
   
   .hamburger-button {
     display: none;
+  }
+
+  .page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
+  }
+
+  .row {
+    width: 100%; 
+    width: 1140px;
+    max-width: 1140px;
+    padding: 30px 0;
+  }
+
+  .row h4 {
+    text-align: center;
+    padding: 25px 0;
+  }
+
+  .row p {
+    padding: 0 60px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .social-media i {
+    font-size: 1.5em;
+  }
+
+  .officer-board {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px 50px;
+    gap: 50px;
+    justify-content: center;
+    align-content: space-around;
+  }
+  
+  .officer-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .officer-card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .year-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    gap: 5px;
+  }
+
+  .year-image img {
+    width: 50%;
   }
 }
